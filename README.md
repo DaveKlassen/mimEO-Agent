@@ -1,4 +1,4 @@
-# mimEO-Agenti
+# mimEO-Agent
 
 ## Shell script
 A simple sample shell script to call local LLM through a local mimEO Studio install
