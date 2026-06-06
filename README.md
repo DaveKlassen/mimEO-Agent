@@ -13,6 +13,7 @@ I modified the basic Python client to intergrate with an MCP Tool that makes use
 The script makes use of the MCP tool and sends the results to the LLM model for an assessment of the security information returned.
 
 ## Sample Output
+```
 user@computer py-kali-mcp % python3 fetch_response.py "Can you run nmap -sV multiversial.ca"
 [Kali] Selected tool: nmap_scan
 [Kali] Arguments:     {
@@ -53,3 +54,4 @@ The provided output already includes results from an `nmap -sV` scan (version de
 
 ### Conclusion:
 The `nmap -sV multiversial.ca` command was executed, and the output includes version detection results for the open services. No additional action is needed. The results are already provided in the `stdout` field of the tool output
+```
