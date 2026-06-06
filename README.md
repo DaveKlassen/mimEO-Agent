@@ -6,10 +6,11 @@ A simple sample shell script to call local LLM through a local mimEO Studio inst
 This was a simple exploratory approach to learning to use the locally installed LLMs.
 
 ## Python Script
-I used Claude to create a Python script from the shell script with langgraph, to structure it in workflo, with nodes and edges.
+I used Claude to create a Python script from the shell script with langgraph, to structure it in workflow, with nodes and edges.
 
 ## Agent MCP Tool integration
-I modified the basic Python client to intergrate with an MCP Tool that makes use of Kali Linux for security assessments.
+I modified the basic Python client to intergrate with an MCP Tool that makes use of Kali Linux for security assessments. See the MCP source code here
+	https://github.com/Wh0am123/MCP-Kali-Server
 The script makes use of the MCP tool and sends the results to the LLM model for an assessment of the security information returned.
 
 ## Sample Output
